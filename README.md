@@ -1,5 +1,9 @@
 # README
 
+Run server locally: `rails server`
+
+Last section read: https://guides.rubyonrails.org/getting_started.html#updating-an-article
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
