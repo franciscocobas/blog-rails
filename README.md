@@ -2,7 +2,7 @@
 
 Run server locally: `rails server`
 
-Last section read: https://guides.rubyonrails.org/getting_started.html#adding-a-second-model
+Last section read: https://guides.rubyonrails.org/getting_started.html#refactoring
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
