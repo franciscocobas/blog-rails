@@ -2,7 +2,7 @@
 
 Run server locally: `rails server`
 
-Last section read: https://guides.rubyonrails.org/getting_started.html#refactoring
+Last section read: https://guides.rubyonrails.org/getting_started.html#using-concerns
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
