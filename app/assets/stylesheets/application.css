@@ -13,3 +13,40 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container.homepage ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.container.homepage ul li {
+  list-style: none;
+  border: 1px solid black;
+  border-radius: 3px;
+  text-align: center;
+  padding: 20px;
+}
+
+.container.homepage ul li a {
+  text-decoration: none;
+}
