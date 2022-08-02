@@ -9,7 +9,7 @@
 
   <div>
     <%= form.label :body %>
-    <%= form.text_area :body %>
+    <%= form.text_area :body, size: "70x5" %>
     <% article.errors.full_messages_for(:body).each do |message|  %>
       <div><%= message %></div>
     <% end %>

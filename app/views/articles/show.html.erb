@@ -1,7 +1,7 @@
-<div class="container">
+<div class="container show-article">
   <h1><%= @article.title %></h1>
 
-  <p><%= @article.body %></p>
+  <p class="article-body"><%= @article.body %></p>
 
   <ul>
     <li><%= link_to "Edit", edit_article_path(@article) %></li>
@@ -9,11 +9,11 @@
       turbo_method: "delete",
       turbo_confirm: "Are you sure?"
     } %></li>
-
-    <h2>Comments</h2>
-    <%= render @article.comments %>
-
-    <h2>Add a comment:</h2>
-    <%= render 'comments/form' %>
   </ul>
+
+  <h2>Comments</h2>
+  <%= render @article.comments %>
+
+  <h2>Add a comment:</h2>
+  <%= render 'comments/form' %>
 </div>
